@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+:root {
+    --calc1: calc(100% / 12 * 1);
+    --calc2: calc(100% / 12 * 2);
+    --calc3: calc(100% / 12 * 3);
+    --calc4: calc(100% / 12 * 4);
+    --calc5: calc(100% / 12 * 5);
+    --calc6: calc(100% / 12 * 6);
+    --calc7: calc(100% / 12 * 7);
+    --calc8: calc(100% / 12 * 8);
+    --calc9: calc(100% / 12 * 9);
+    --calc10: calc(100% / 12 * 10);
+    --calc11: calc(100% / 12 * 11);
+    --calc12: calc(100% / 12 * 12);
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+header {
+    background-image: url(../Images/Rectangle\ 31.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+header nav .header_logo img {
+    height: 20px;
+}
+
+header nav ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+header nav button {
+    width: 163px;
+    height: 45px;
+    background-color: #C9453B;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* header birinchi qismi tugadi */
+header .header_ikki h2 {
+    color: #FFFFFF;
+    font-size: 65px;
+    text-align-last: left;
+    margin-top: 286px;
+}
+
+header .header_ikki p {
+    font-size: 18px;
+    color: white;
+    opacity: 60%;
+    margin-top: 30px;
+}
+
+header .header_ikki .header_ikki_keyin button {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 187px;
+    height: 59px;
+    border-radius: 5px;
+    background-color: #C9453B;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* headerni hammasi qismi tugadi */
+
+main .aside .margin_auto {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .aside .margin_auto h2 {
+    font-size: 43px;
+    color: #000000;
+}
+
+main .aside .margin_auto p {
+    color: #000000;
+    opacity: 60%;
+    margin-top: 20px;
+}
+
+main .aside .jus_spa_bet {
+    justify-content: space-between;
+}
+
+main .aside .aside_flex {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 3px lightgrey;
+    border: 1px solid lightgrey;
+
+}
+
+main .aside .aside_flex .aside_h2 {
+    color: #000000;
+    margin-top: 35px;
+}
+
+main .aside .aside_flex .aside_p {
+    color: #000000;
+    opacity: 60%;
+    margin-top: 10px;
+}
+
+main .aside .aside_flex .aside_img {
+    width: 330px;
+}
+
+/* main qismini birinchi qismi tugadi */
+aside .margin_auto {
+    text-align: center;
+    margin-top: 140px;
+}
+
+aside .margin_auto h2 {
+    font-size: 43px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+aside .margin_auto p {
+    font-size: 20px;
+    color: #000000;
+    opacity: 60%;
+    margin-bottom: 70px;
+}
+
+aside .aside_asosi {
+    display: flex;
+    /* max-width: 1400px; */
+    justify-content: space-between;
+    color: #000000;
+    margin-bottom: 140px;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+
+aside .aside_asosi .small_flex {
+
+    width: 150px;
+    justify-content: space-between;
+    margin: 8px 0px;
+    display: flex;
+}
+
+aside .aside_asosi .fa-star {
+    color: yellow;
+}
+
+aside .aside_asosi .fa-location-dot {
+    color: red;
+}
+
+aside .aside_asosi .aside_margin {
+    margin-top: 8px;
+}
+
+aside .aside_asosi .aside_margin .aside_span {
+    color: black;
+}
+
+/* main ikkinchi qismi tugadi */
+.menu .margin_auto {
+    text-align: center;
+}
+
+.menu .margin_auto h2 {
+    font-size: 43px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.menu .margin_auto p {
+    line-height: 25px;
+    color: #000000;
+    opacity: 60%;
+}
+
+/* margin auto */
+.menu .menu_small {
+    margin-top: 56px;
+    width: 500px;
+    text-align: left;
+}
+
+.menu .menu_small h2 {
+    font-size: 20px;
+    margin-top: 55px;
+    /* margin-bottom: 25px; */
+}
+
+.menu .menu_small p {
+    margin-top: 35px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 60%;
+    margin-bottom: -15px;
+}
+
+.menu .menu_flex {
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu .menu_flex h2 {
+    opacity: 85%;
+    font-size: 20px;
+}
+
+.menu .menu_flex p {
+    color: #000000;
+    opacity: 60%;
+    line-height: 25px;
+    margin: 15px 0px 10px;
+}
+
+.menu .menu_flex span {
+    color: #000000;
+    opacity: 90%;
+}
+
+.menu .menu_flex .menu_ml {
+    margin-left: 54px;
+}
+/* main qismi tugadi */
+footer{
+    padding: 70px 0px 120px;
+    background-color:  rgba(38, 148, 153, 0.04);;
+}
+footer .justify_content{
+    justify-content: space-between;
+}
+footer *p{
+    color: #000000;
+    opacity: 60%;
+}
+footer .footer_one .footer_p{
+    margin: 25px 0px 10px;
+    line-height: px;
+}
+
+footer .footer_one i{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+footer .footer_two p{
+    line-height: 30px;
+}
+footer .footer_three h2{
+    font-size: 20px;
+}
+footer .footer_three input{
+    margin-top: 45px;
+    border-radius: 8px;
+    border-color: grey;
+    width: 195px;
+    height: 44px;
+    padding: 5px 15px 2px;
+    color: #000000;
+    font-size: 16px;
+}
+footer .footer_three button{
+    background-color: #C9453B;
+    border-radius: 8px;
+    border-color: #C9453B;
+    color: white;
+    margin-left: 30px;
+    height: 44px;
+    width: 103px;
+}
